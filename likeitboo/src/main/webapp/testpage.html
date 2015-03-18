@@ -4,7 +4,11 @@
 <meta charset="UTF-8">
 <title>Insert title here</title>
 
+<link rel="stylesheet" href="js/bootstrap-3.3.4/css/bootstrap.css">
+
 <script type="text/javascript" src="js/jquery/jquery-1.11.2.js"></script>
+<script type="text/javascript" src="js/bootstrap-3.3.4/js/bootstrap.js"></script>
+
 <!-- ckeck jquery configure correct-->
 <script type="text/javascript">
 	$(document).ready(function() {
@@ -16,5 +20,38 @@
 </head>
 <body>
 	<p>jquery test=> If you click on me, I will disappear.</p>
+	<p class="lead">bootstrap test=> Border fonts.</p>
+	<h1>This is bootstrap</h1>
+
+<!-- ckeck bootstrap configure correct-->
+	<form class="form-horizontal">
+		<div class="form-group">
+			<label for="inputEmail" class="col-sm-2 control-label">Email</label>
+			<div class="col-sm-5">
+				<input type="email" class="form-control" id="inputEmail"
+					placeholder="Email">
+			</div>
+		</div>
+		<div class="form-group">
+			<label for="inputPassword" class="col-sm-2 control-label">Password</label>
+			<div class="col-sm-5">
+				<input type="password" class="form-control" id="inputPassword"
+					placeholder="Password">
+			</div>
+		</div>
+		<div class="form-group">
+			<div class="col-sm-offset-2 col-sm-10">
+				<div class="checkbox">
+					<label> <input type="checkbox"> Remember me
+					</label>
+				</div>
+			</div>
+		</div>
+		<div class="form-group">
+			<div class="col-sm-offset-2 col-sm-10">
+				<button type="submit" class="btn btn-default">Sign in</button>
+			</div>
+		</div>
+	</form>
 </body>
 </html>
